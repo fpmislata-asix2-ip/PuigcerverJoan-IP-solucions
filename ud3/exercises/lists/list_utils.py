@@ -40,9 +40,28 @@ def sum(lst):
     return s
 
 
+def equals(l1, l2):
+    if len(l1) != len(l2):
+        return False
+
+    for i in range(len(l1)):
+        if l1[i] != l2[i]:
+            return False
+
+    return True
+
+
+def reverse(lst):
+    reversed = []
+    for e in lst:
+        reversed.insert(0, e)
+    return reversed
+
+
 if __name__ == '__main__':
     my_list = read_list()
     print("La llista és:", my_list)
     print("Mínim:", min(my_list))
     print("Màxim:", max(my_list))
     print("Suma:", sum(my_list))
+    print("Reverse:", reverse(my_list))
