@@ -20,7 +20,7 @@ class CompteBancari:
 
 
 if __name__ == "__main__":
-    compte = CompteBancari('Anna', saldo=100)
+    compte = CompteBancari('Anna', 100)
     print(compte)
     compte.ingresar(50)
     print(compte)
