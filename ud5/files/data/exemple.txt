@@ -1,0 +1,5 @@
+EscripturaAfegir
+Primera línia.
+Segona línia.
+Hola
+Hola
