@@ -1,8 +1,5 @@
 def es_poden_repartir(persones, galletes):
-    # Càlculs....
-    return False # True o False
-
-print(__name__)
+    return galletes % persones == 0 # True o False
 
 if __name__ == "__main__":
     persones = int(input())
