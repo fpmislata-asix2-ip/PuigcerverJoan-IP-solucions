@@ -5,4 +5,4 @@ def print_domino(n):
         print()
 
 if __name__ == "__main__":
-    print_domino(6)
+    print_domino(8)
